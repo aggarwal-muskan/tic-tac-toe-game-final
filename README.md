@@ -1,44 +1,47 @@
 # Tic-Tac-Toe Game
 
-A classic 3x3 Tic-Tac-Toe game implemented as a single-page web application using HTML, Tailwind CSS, and JavaScript. This project demonstrates a functional game with a clear user interface, win/draw conditions, and a reset option.
+A simple, interactive Tic-Tac-Toe game built with HTML, Tailwind CSS, and vanilla JavaScript. Enjoy a classic game with a modern, responsive interface and keep track of your wins!
 
 ## Features
 
-*   **Interactive 3x3 Game Board**: Clickable cells to place 'X' or 'O'.
-*   **Player Turn Indicator**: Clearly shows which player's turn it is.
-*   **Win/Draw Detection**: Automatically detects when a player wins or if the game ends in a draw.
-*   **Reset Functionality**: A button to easily start a new game at any time.
-*   **Responsive Design**: Adapts gracefully to different screen sizes, from mobile to desktop.
-*   **Modern Styling**: Utilizes Tailwind CSS for a clean and attractive user experience.
-
-## Technologies Used
-
-*   **HTML5**: Structure of the web page.
-*   **Tailwind CSS**: A utility-first CSS framework for rapid and responsive styling.
-*   **JavaScript (ES6+)**: Powers the game logic, interactivity, and state management.
+*   **Responsive Design:** Optimized for various screen sizes, from mobile to desktop, using Tailwind CSS.
+*   **Intuitive Gameplay:** Click on cells to make your move.
+*   **Win/Draw Detection:** Automatically detects and announces the winner or if the game is a draw.
+*   **Score Counter:** Keeps track of wins for Player X and Player O across multiple rounds. Scores are persistent until the page is refreshed.
+*   **Reset Game Functionality:** A button to clear the board and start a new round without resetting the scores.
 
 ## How to Play
 
-1.  Open the `index.html` file in your web browser.
-2.  Player 'X' starts the game.
-3.  Click on any empty cell on the 3x3 board to place your mark ('X' or 'O').
-4.  The status display will indicate whose turn it is.
-5.  The game ends when one player gets three of their marks in a row (horizontally, vertically, or diagonally), or when all cells are filled resulting in a draw.
-6.  Click the "Reset Game" button to start a new game at any time.
+1.  Open `index.html` in your web browser.
+2.  Player X starts the game.
+3.  Click on any empty cell to place your mark (X or O).
+4.  The game automatically switches turns between Player X and Player O.
+5.  The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the round.
+6.  If all cells are filled and no player has won, the round is a draw.
+7.  The score counter at the top will update after each win.
+8.  Click the "Reset Game" button to clear the board and start a new round. Scores are not affected by the reset.
+
+## Technical Details
+
+*   **HTML:** Structures the game interface.
+*   **Tailwind CSS:** Provides utility-first CSS for rapid and responsive styling.
+*   **JavaScript:** Implements the game logic, turn management, win/draw conditions, and score tracking.
 
 ## Getting Started
 
-To run this project locally, simply:
+To run this project locally:
 
-1.  Clone this repository or download the `index.html` file.
-2.  Open `index.html` in your favorite web browser (e.g., Chrome, Firefox, Safari).
-
-No special build steps or server are required as it's a single-file, client-side application.
-
-## Contributing
-
-This project is a simple demonstration of a Tic-Tac-Toe game. Feel free to fork the repository, suggest improvements, or fix bugs.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/tic-tac-toe.git
+    ```
+    (Replace `your-username/tic-tac-toe.git` with the actual repository URL if this were a real repo)
+2.  Navigate to the project directory:
+    ```bash
+    cd tic-tac-toe
+    ```
+3.  Open `index.html` in your favorite web browser.
 
 ## License
 
-This project is open-source and available under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
